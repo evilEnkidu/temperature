@@ -3,31 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple calculator</title>
+    <title>Simple Calculator</title>
     <link rel="stylesheet" href="mystyle.css">
 </head>
 <body>
-    
     <h1>Simple Calculator</h1>
-    <div>
-        <label for="num1">Number 1:</label>
-        <input type="text" id="num1">
-    </div>
+    <button onclick="startCalculator()">Start Calculator</button>
 
-    <div>
-        <label for="num2">Number 2:</label>
-        <input type="text" id="num2">
-    </div>
-
-    <div class="buttons"> 
-        <button onclick="calculate('add')">+</button>
-        <button onclick="calculate('subtract')">-</button>
-        <button onclick="calculate('multiply')">*</button>
-        <button onclick="calculate('divide')">/</button>
-    </div>
-
-    <div id="result"></div>
-
-    <script src="./scripts/script.js"></script>
+    <script src="./scripts/calculator.js"></script>
 </body>
 </html>
