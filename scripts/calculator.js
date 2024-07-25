@@ -50,7 +50,7 @@ function readOperation() {
                 break;
             case '2':
                 if (numberA != 0) {
-                    document.write(numberB +" / " + numberA + " = " (numberB / numberA));
+                    document.write(numberB + " / " + numberA + " = " + (numberB / numberA));
                 } else {
                     alert("You seriously tried an invalid division? FATAL PROGRAM ERROR DELETE COMPUTER END DIE RUN FIRE RED");
                 }
